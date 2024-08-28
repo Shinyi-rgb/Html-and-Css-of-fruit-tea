@@ -1,0 +1,249 @@
+html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #F8F2BE;
+  color: #923A3A;
+}
+
+
+.right-section {
+    width: 50%;
+    text-align: right;
+    padding-right: 20px;
+}
+
+.right-section h2 {
+    font-family: 'Road Rage', cursive;
+    font-size: 24px;
+    margin: 0 0 10px 0;
+}
+
+.right-section input[type="text"] {
+    padding: 10px;
+    width: 250px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+
+.login-tip {
+    margin-top: 20px; 
+    padding: 15px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px; 
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.1); 
+    text-align: center; 
+}
+
+.login-tip p {
+    margin: 0 0 12px 0; 
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px; 
+    color: #923A3A;
+}
+
+.login-tip form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login-tip input[type="text"],
+.login-tip input[type="password"] {
+    width: 300px; 
+    padding: 8px; 
+    margin-bottom: 10px; 
+    border: 1px solid #ddd;
+    border-radius: 6px;
+}
+
+.login-tip button {
+    padding: 8px 16px; 
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px; 
+}
+
+.login-tip button:hover {
+    background-color: #45a049;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #F8F2BE;
+  transform: rotate(-10deg);
+  margin: 0 50px; 
+}
+
+header .header-container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  transform: rotate(10deg);
+}
+
+.left-section {
+  display: flex;
+  align-items: flex-start;
+  position: relative;
+  width: 50%;
+}
+
+.left-section img {
+  width: 720px;
+  height: 500px;
+  border-radius: 8px;
+}
+
+.logo-text {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.logo-text img {
+  width: 90px;
+  height: 89px;
+  margin-right: 10px;
+}
+
+.logo-text h1 {
+  font-family: 'Great Vibes', serif;
+  font-size: 20px;
+  margin: 0;
+  color: #F8F2BE;
+}
+
+.right-section {
+  width: 50%;
+  text-align: right;
+  padding-right: 20px;
+}
+
+.right-section h2 {
+  font-family: 'Road Rage', cursive;
+  font-size: 24px;
+  margin: 0 0 10px 0;
+}
+
+.right-section input[type="text"] {
+  padding: 10px;
+  width: 300px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+}
+
+.main {
+  padding: 20px;
+}
+
+.main .section-title {
+  font-family: 'Ribeye Marrow', cursive;
+  font-size: 64px;
+  margin: 20px 0;
+  text-align: center;
+}
+
+.main .section-subtitle {
+  font-family: 'Redressed', cursive;
+  font-size: 24px;
+  margin: 10px 0 30px 0;
+  text-align: center;
+}
+
+.videos {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 0;
+}
+
+.video-section {
+  width: 331px;
+  text-align: center;
+}
+
+.video-section video {
+  width: 331px;
+  height: 227px;
+  border-radius: 8px;
+}
+
+.video-section h3 {
+  font-family: 'Risque', cursive;
+  font-size: 32px;
+  margin: 10px 0;
+}
+
+.video-section p {
+  font-family: 'Roboto Flex', sans-serif;
+  font-size: 20px;
+  text-align: left;
+}
+
+.benefits {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin: 50px 0;
+}
+
+.benefits .left {
+  max-width: 50%;
+}
+
+.benefits .left h2 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 40px;
+  margin: 0 0 10px 0;
+}
+
+.benefits .left p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  margin: 0 0 20px 0;
+}
+
+.benefits .left a {
+  display: inline-block;
+  padding: 10px 20px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  text-decoration: none;
+  background-color: #923A3A;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.benefits .right {
+  display: flex;
+  gap: 20px;
+}
+
+.benefits .right img {
+  width: 147px;
+  height: 196px;
+  border-radius: 8px;
+}
+
+footer {
+  padding: 20px;
+  background-color: #fff;
+  text-align: center;
+}
+
+footer .social-media a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #923A3A;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+}
